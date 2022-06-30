@@ -5,6 +5,7 @@ const bcrypt = require('bcrypt')
 const express = require('express')
 const PORT = process.env.PORT || 3000
 const upload = multer({ dest: 'uploads'})
+const File = require('./models/File')
 
 const app = express()
 

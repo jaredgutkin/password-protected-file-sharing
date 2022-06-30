@@ -13,7 +13,7 @@ const File = new mongoose.Schema({
     downloadCount: {
         type: Number,
         required: true,
-        deafult: 0
+        default: 0
     }
 })
 
