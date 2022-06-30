@@ -9,3 +9,7 @@ form {
 button {
     grid-column: span 2;
 }
+
+div {
+    margin-bottom: 1rem;
+}
